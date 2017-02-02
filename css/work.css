@@ -78,3 +78,9 @@
   background-repeat: no-repeat;
 }
 
+.ten{
+  background:url(../img/work/gif/thumb/6.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
