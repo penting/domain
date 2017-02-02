@@ -53,7 +53,7 @@ table {
   border-spacing: 0; }
 
 body {
-  font-family: 'Alegreya', serif; }
+  font-family: 'Roboto', sans-serif;}
 
 #index a:link,
 #index a:visited {
@@ -151,7 +151,6 @@ body {
       font-size: 2rem; } }
   @media screen and (max-width: 550px) {
     #index #about {
-      padding-top: 6rem;
       width: 80%;
       font-size: 3.5rem; } }
 
