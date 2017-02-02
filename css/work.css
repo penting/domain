@@ -63,8 +63,16 @@
   background-repeat: no-repeat;
 }
 
+
 .eight{
   background:url(../img/work/gif/thumb/5.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.nine{
+  background:url(../img/work/gif/thumb/6.jpg);
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
