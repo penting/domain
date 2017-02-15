@@ -49,4 +49,9 @@
   background-repeat: no-repeat;
 }
 
-
+.six{
+  background:url(../img/work/img/thumb/25.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
