@@ -73,19 +73,6 @@
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
-    <script type="text/javascript" src="js/jquery.fancybox.js"></script>
-
-    <script type="text/javascript">
-      $(".image_overlay").fancybox({
-        'afterShow'        : function() {
-          setTimeout($('#loading').fadeToggle('show'), 500);
-           
-        }
-      });
-      $('.image_overlay').click(function(){
-        $('#loading').fadeToggle('show');
-      });
-    </script>
   </body>
 
 </html>
