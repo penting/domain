@@ -409,7 +409,7 @@ body {
   margin-bottom: 3rem; }
 #work .image_overlay {
   width: 13rem;
-  height: 13rem;
+  height: auto;
   margin-top: 3rem;
   margin-left: 5rem;
   display: inline-block; }
@@ -418,12 +418,12 @@ body {
   @media screen and (max-width: 786px) {
     #work .image_overlay {
       width: 25rem;
-      height: 25rem; }
+      height: auto; }
       #work .image_overlay:nth-child(2n+1) {
         margin-left: 0; } }
   @media screen and (max-width: 550px) {
     #work .image_overlay {
       width: 30rem;
-      height: 30rem; } }
+      height: auto; } }
 
 /*# sourceMappingURL=main.css.map */
