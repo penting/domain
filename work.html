@@ -39,26 +39,59 @@
     
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel="stylesheet" type="text/css" href="css/work.css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   </head>
 
   <body id="work">
-    
-    <p id="loading">Loading...</p>
 
     <section>
-      
 
-     <img class="image_overlay" src="img/work/img/6.jpg">
-      
-     <img class="image_overlay" src="img/work/img/4.jpg">
-      
-     <img class="image_overlay" src="img/work/img/12.jpg">
-      
-     <img class="image_overlay" src="img/work/img/thumb/23.jpg">
+      <!-- 
+
+        ///// INSTRUCTIONS FOR USE ////
+
+        Each image row is 6 coulmns wide
+        an image can take either, 1, 3, or six columns
+
+        <img class="image_overlay" src="..."> defaults to one column
+        <img class="image_overlay four_column" src="..."> = 4 columns
+        <img class="image_overlay six_column" src="..."> = 6 columns
+        
+        each row of images can't have any space between the image tags
+        so, for example
+        
+        <img class="image_overlay" src="...">
+        <img class="image_overlay four_column" src="...">
+        <img class="image_overlay" src="...">
+
+        has to be written as 
+
+        <img class="image_overlay" src="..."><img class="image_overlay four_column" src="..."><img class="image_overlay" src="...">
+
+        lastly, with the exception of a six_column image, each image thats on the left-most side of the row must contain an alpha class,
+
+        <img class="image_overlay alpha" src="...">
+
+        if it is on the right most side it must contain an omega class
+
+        <img class="image_overlay omega" src="..."> 
+
+      -->
+    
+      <!-- EDIT BETWEEN THESE LINES -->
+
+       <img class="image_overlay four_column alpha" src="img/work/img/6.jpg"><img class="image_overlay" src="img/work/img/4.jpg"><img class="image_overlay omega" src="img/work/img/12.jpg">
+
+       <img class="image_overlay six_column" src="img/work/img/12.jpg">
+
+       
+       <img class="image_overlay alpha" src="img/work/img/4.jpg"><img class="image_overlay" src="img/work/img/4.jpg"><img class="image_overlay" src="img/work/img/thumb/23.jpg"><img class="image_overlay omega" src="img/work/img/6.jpg">
+
+       <img class="image_overlay alpha" src="img/work/img/4.jpg"><img class="image_overlay four_column" src="img/work/img/thumb/23.jpg"><img class="image_overlay omega" src="img/work/img/6.jpg">
+
+       <!-- EDIT BETWEEN THESE LINES -->
       
     </section>
     
